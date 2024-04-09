@@ -1,0 +1,7 @@
+Plugins Used:
+
+animsition
+scrollme
+flickity
+leaflet
+Vide

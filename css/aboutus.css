@@ -1,0 +1,487 @@
+@media (max-width: 1440px) {
+
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  
+  body{
+    min-height: 100vh;
+    background-color: #1D1D1D;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+  }
+  
+  nav{
+    background-color: #981F2C;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav li{
+    height: 50px;
+  }
+  
+  nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  nav a:hover{
+    background-color: #f0f0f0;
+  }
+  
+  nav li:first-child{
+    margin-right: auto;
+  }
+  
+  .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #981f2b54;
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 999;
+  }
+  
+  .sidebar li{
+    width: 100%;
+  }
+  
+  .sidebar a{
+    width: 100%;
+  }
+  
+  .menu-button{
+    display: none;
+  }
+  
+  .Banner-About {
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #1D1D1D; 
+    
+}
+
+.image-container {
+  width: 60%; 
+  margin: auto;
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 800px;
+  height: auto;
+  border-radius: 20px;
+}
+
+  
+.featured-gear {
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CF812D;
+    color: white;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    padding-left: 2em;
+    text-align: center;
+}
+
+.mission-section {
+    background-color: #E5ECF0;
+    padding: 20px;
+}
+
+.mission-section .mission-text p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mission-section .core-values {
+    margin-top: 40px;
+}
+
+.mission-section .core-values h2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.mission-section .core-values ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.mission-section .core-values li {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.carousel-cell img{
+
+  width: 50vw;
+  height: auto;
+  
+}
+
+#map { 
+  height: 50vh;
+  width: auto; 
+  z-index: 999;
+
+
+
+}
+
+  
+.final-footer {
+  height: auto;
+  background-color: #981F2C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+  padding: 20px;
+}
+
+.final-footer img {
+  max-width: 200px;
+  height: auto;
+}
+
+.final-footer .footer-text {
+  text-align: center;
+}
+
+.final-footer a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+  margin-right: 20px;
+}
+
+.footer-push {
+  flex-grow: 1;
+}
+  
+  
+  @media(max-width:936px){
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+    }
+  
+    .Banner-About {
+      
+      justify-content: center;
+      align-items: center;
+      background-color: #1D1D1D; 
+      
+  }
+  
+  .image-container {
+    width: 60%; 
+    margin: auto;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    min-width: 390px;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+    
+  .featured-gear {
+      height: 5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #CF812D;
+      color: white;
+      font-family: "Barlow", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 0.7em;
+      padding-left: 2em;
+      text-align: center;
+  }
+  
+  .mission-section {
+      background-color: #E5ECF0;
+      padding: 20px;
+  }
+  
+  .mission-section .mission-text p {
+      font-family: "Barlow", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1.1em;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  
+  .mission-section .core-values {
+      margin-top: 40px;
+  }
+  
+  .mission-section .core-values h2 {
+      font-family: "Barlow", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 1.3em;
+      margin-bottom: 10px;
+  }
+  
+  .mission-section .core-values ul {
+      list-style-type: none;
+      padding-left: 20px;
+  }
+  
+  .mission-section .core-values li {
+      font-family: "Barlow", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1em;
+      line-height: 1.5;
+      margin-bottom: 20px;
+  }
+  
+  .carousel-cell img{
+
+    width: 50vw;
+    height: auto;
+    
+  }
+    
+  .final-footer {
+    height: auto;
+    background-color: #981F2C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 1px;
+    padding: 1px;
+  }
+  
+  .final-footer img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .final-footer .footer-text {
+    text-align: center;
+  }
+  
+  .final-footer a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .footer-push {
+    flex-grow: 1;
+  }
+  
+  }
+  
+  @media (max-width: 414px) {
+    .sidebar {
+      width: 100%;
+    }
+  
+    .Banner-About {
+      
+      justify-content: center;
+      align-items: center;
+      background-color: #1D1D1D; 
+      
+  }
+  
+  .image-container {
+    width: 60%; 
+    height: 200px;
+    margin: auto;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    min-width: 350px;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+    
+  .featured-gear {
+      height: 5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #CF812D;
+      color: white;
+      font-family: "Barlow", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 0.6em;
+      padding-left: 2em;
+      text-align: center;
+  }
+  
+  .mission-section {
+      background-color: #E5ECF0;
+      padding: 20px;
+  }
+  
+  .mission-section .mission-text p {
+      font-family: "Barlow", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1.1em;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      
+      
+  }
+  
+  .mission-section .core-values {
+      margin-top: 40px;
+  }
+  
+  .mission-section .core-values h2 {
+      font-family: "Barlow", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      text-align: left;
+      padding-left: 0.8em;
+  }
+  
+  .mission-section .core-values ul {
+      list-style-type: none;
+      text-align: left;
+  }
+  
+  .mission-section .core-values li {
+      font-family: "Barlow", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1em;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      text-align: left;
+  }
+  
+  .carousel-cell img{
+
+    width: 100vw;
+    height: auto;
+    
+  }
+
+  .final-footer {
+    height: auto;
+    background-color: #981F2C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 1px;
+    padding: 1px;
+  }
+  
+  .final-footer img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .final-footer .footer-text {
+    text-align: center;
+  }
+  
+  .final-footer a {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    margin-right: 20px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .footer-push {
+    flex-grow: 1;
+  }
+  
+  }
+  

@@ -1,0 +1,460 @@
+@media (max-width: 1440px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  background-color: #1D1D1D;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+nav{
+  background-color: #981F2C;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li{
+  height: 50px;
+}
+
+nav a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+nav a:hover{
+  background-color: #f0f0f0;
+}
+
+nav li:first-child{
+  margin-right: auto;
+}
+
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #981f2b54;
+  backdrop-filter: blur(12px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 999;
+}
+
+.sidebar li{
+  width: 100%;
+}
+
+.sidebar a{
+  width: 100%;
+}
+
+.menu-button{
+  display: none;
+}
+
+.Banner-New {
+    display: flex;
+    background-color: #1D1D1D;
+    padding: 20px;
+}
+
+.text-content {
+    flex: 1;
+    color: white;
+}
+
+.text-content h1 {
+    margin-top: 0.8em;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.2em;
+    margin-bottom: 0.5em;
+}
+
+
+.text-content h3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.7em;
+}
+
+.image-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+}
+
+.image-content img {
+    width: auto;
+    max-height: 350px;
+    border-radius: 20px;
+}
+
+
+.featured-gear{
+  height: 5em;
+  align-items: center;
+  display: flex;
+  background-color: #CF812D;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1em;
+  padding-left: 2em;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto); 
+  gap: 20px; 
+  padding: 20px;
+  background-color: #E5ECF0;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-item p {
+  margin-top: 10px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+
+.final-footer {
+  height: auto;
+  background-color: #981F2C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+  padding: 20px;
+}
+
+.final-footer img {
+  max-width: 200px;
+  height: auto;
+}
+
+.final-footer .footer-text {
+  text-align: center;
+}
+
+.final-footer a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+  margin-right: 20px;
+}
+
+.footer-push {
+  flex-grow: 1;
+}
+
+
+@media(max-width:936px){
+  .hideOnMobile{
+    display: none;
+  }
+  .menu-button{
+    display: block;
+  }
+
+  .Banner-New {
+    display: flex;
+    flex-direction: column;
+    background-color: #1D1D1D;
+    padding: 20px;
+}
+
+.text-content {
+    color: white;
+}
+
+.text-content h1 {
+    margin-top: 0.8em;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+
+.text-content h3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.image-content img {
+    width: auto;
+    min-width: 390px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+
+.featured-gear{
+  height: 5em;
+  align-items: center;
+  display: flex;
+  background-color: #CF812D;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.8em;
+  padding-left: 2em;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto); 
+  gap: 20px; 
+  padding: 20px;
+  background-color: #E5ECF0;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-item p {
+  margin-top: 10px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+
+.final-footer {
+  height: auto;
+  background-color: #981F2C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 1px;
+  padding: 1px;
+}
+
+.final-footer img {
+  max-width: 150px;
+  height: auto;
+}
+
+.final-footer .footer-text {
+  text-align: center;
+}
+
+.final-footer a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.footer-push {
+  flex-grow: 1;
+}
+}
+
+/* MOBILE */
+
+@media (max-width: 414px) {
+  .sidebar {
+    width: 100%;
+  }
+
+  .Banner-New {
+    display: flex;
+    flex-direction: column;
+    background-color: #1D1D1D;
+    padding: 20px;
+}
+
+.text-content {
+    color: white;
+}
+
+.text-content h1 {
+    margin-top: 0.8em;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.4em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+
+.text-content h3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.image-content img {
+    width: 100%;
+    min-width: auto;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+
+.featured-gear{
+  height: 5em;
+  align-items: center;
+  display: flex;
+  background-color: #CF812D;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.8em;
+  padding-left: 2em;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, auto); 
+  gap: 20px; 
+  padding: 20px;
+  background-color: #E5ECF0;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-item p {
+  margin-top: 10px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+
+.final-footer {
+  height: auto;
+  background-color: #981F2C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 1px;
+  padding: 1px;
+}
+
+.final-footer img {
+  max-width: 150px;
+  height: auto;
+}
+
+.final-footer .footer-text {
+  text-align: center;
+}
+
+.final-footer a {
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+  margin-right: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer-push {
+  flex-grow: 1;
+}
+}

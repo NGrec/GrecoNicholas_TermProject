@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrecsGoalers</title>
+    
+    <!--Styles-->
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/animsition.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!--Nav Items / Sidebar-->
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+            <li><a href="pads.html">PADS</a></li>
+            <li><a href="glovesnblockers.html">GLOVES & BLOCKERS</a></li> 
+            <li><a href="sticks.html">STICKS</a></li> 
+            <li><a href="aboutus.html">ABOUT US</a></li>  
+         </ul>
+        <ul>
+            <li><a href="home.html">GRECSGOALERS</a></li>
+            <li class="hideOnMobile"><a href="pads.html">PADS</a></li>
+           <li class="hideOnMobile"><a href="glovesnblockers.html">GLOVES & BLOCKERS</a></li> 
+           <li class="hideOnMobile"><a href="sticks.html">STICKS</a></li> 
+           <li class="hideOnMobile"><a href="aboutus.html">ABOUT US</a></li>  
+           <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    
+    <!--Wrapping content for fade effect-->
+    <div class="animsition">
+    
+        <div class="Banner-Home">
+        <div class="text-content">
+            <h1>EMPOWERING EVERY SAVE, EVERY GAME.</h1>
+            <p>GrecsGoalers wants to empower goaltenders of all ages and skill levels to reach their full potential. With a huge variety of custom and specialised gear, we work to ensure all goalies from Butterfly to Hybrid get the most quality, comfort, and saftey from their pads and equipment so all you have to worry about is keeping the puck out of the net!</p>
+
+            <h3>PRECISION IN EVERY PLAY, POWER IN EVERY SAVE</h3>
+        </div>
+        <div class="image-content">
+            <img src="img/goaler1.png" alt="Goaler">
+            <img src="img/goaler4.png" alt="Goaler">
+            <img src="img/goaler3.png" alt="Goaler">
+            <img src="img/goaler2.png" alt="Goaler">
+        </div>
+    </div>
+
+    <div class="featured-gear">
+        <h1>FEATURED GEAR THIS WEEK</h1>
+    </div>
+
+    <!--Spin Effect from scroll me on product grid-->
+    <div class="product-grid scrollme">
+        <div class="product-item animateme"
+             data-when="enter"
+             data-from="1"
+             data-to="0"
+             data-opacity="0"
+             data-translatex="-200"
+             data-rotatez="90">
+            <a href="purchasehelmet.html"><img src="img/AXIS1.5DecalGoalieMaskSenior.png" alt="Product 1"></a>
+            <p>AXIS 1.5 Decal Goalie Mask Senior</p>
+        </div>
+        
+        <div class="product-item animateme"
+             data-when="enter"
+             data-from="1"
+             data-to="0"
+             data-opacity="0"
+             data-translatex="-200"
+             data-rotatez="90">
+            <a href="purchasestick.html"><img src="img/EFlex5.9GoalieStickSenior.png" alt="Product 2"></a>
+            <p>EFlex 5.9 Goalie Stick Senior</p>
+        </div>
+        
+        <div class="product-item animateme"
+             data-when="enter"
+             data-from="1"
+             data-to="0"
+             data-opacity="0"
+             data-translatex="-200"
+             data-rotatez="90">
+            <a href="purchasehand2.html"><img src="img/EFLEX6GoalieBlockerSenior.png" alt="Product 3"></a>
+            <p>EFLEX 6 Goalie Blocker Senior</p>
+        </div>
+        
+        <div class="product-item animateme"
+             data-when="enter"
+             data-from="1"
+             data-to="0"
+             data-opacity="0"
+             data-translatex="-200"
+             data-rotatez="90">
+            <a href="purchasehand1.html"><img src="img/EFLEX6GoalieGloveSenior.png" alt="Product 4"></a>
+            <p>EFLEX 6 Goalie Glove Senior</p>
+        </div>
+        
+        <div class="product-item animateme"
+             data-when="enter"
+             data-from="1"
+             data-to="0"
+             data-opacity="0"
+             data-translatex="-200"
+             data-rotatez="90">
+            <a href="purchasepad1.html"><img src="img/EFLEX6GoaliePadsSenior.png" alt="Product 5"></a>
+            <p>EFLEX 6 Goalie Pads Senior</p>
+        </div>
+        
+        <div class="product-item animateme"
+             data-when="enter"
+             data-from="1"
+             data-to="0"
+             data-opacity="0"
+             data-translatex="-200"
+             data-rotatez="90">
+            <a href="purchaseskates.html"><img src="img/Eflex6.5GoalieSkatesSenior.png" alt="Eflex 6.5 Goalie Skates Senior"></a>
+            <p>Eflex 6.5 Goalie Skates Senior</p>
+        </div>
+    </div>
+    
+
+    <!--Vide video!-->
+    <div style="width: 1440px; height: 500px; margin: 0 auto;"
+    data-vide-bg="mp4: videos/goalie1.mp4, webm: videos/goalie1.webm, ogv: videos/goalie1.ogv, poster: videos/goalie1.jpg"
+    data-vide-options="posterType: jpg, loop: true, muted: true, position: 0% 0%">
+</div>
+
+
+</div>
+    
+    <!--FOOTER STUFF-->
+
+    <div class="footer-push"></div>
+
+<div class="final-footer">
+    <img src="img/logomain2.png" alt="Logo">
+    <div class="footer-text">
+        <p class="navigationfooter"><a href="home.html">HOME</a><a href="pads.html">PADS</a><a href="glovesnblockers.html">GLOVES & BLOCKERS</a><a href="sticks.html">STICKS</a><a href="aboutus.html">ABOUT US</a></p>
+    </div>
+</div>
+
+<!--plugins 'n' stuff-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/jquery.vide.min.js"></script>
+    <script src="js/jquery.scrollme.min.js"></script>
+    <script src="js/animsition.min.js"></script>
+    <script src="js/animsitionfunction.js"></script>
+    <script src="js/home.js"></script>
+
+
+    
+</body>
+</html>
